@@ -9,6 +9,7 @@
 header {
     background-color: orangered;
     padding: 20px 0;
+    z-index: 1px;
     
 }
 
@@ -18,6 +19,11 @@ body {
 
 main {
     margin: 20px;
+}
+
+footer {
+    background-color: rgb(39, 39, 39);
+    padding: 60px 0;
 }
 
 /* LAYOUT CLASS */
@@ -46,12 +52,18 @@ main {
     width: 60%;
     height: 40px;
 }
+
+
 /* PAGE STYLES */
 
 i {
     color: #fff;
     text-align: right;
     padding: 10px 0;
+}
+
+h2, h4{
+    color: #fff;
 }
 
 .content {
@@ -63,7 +75,7 @@ i {
     width: 100%;
 }
 
-ul {
+.ul-header {
     list-style-type: none;
     color: #fff;
     display: flex;
@@ -71,6 +83,16 @@ ul {
     padding-top: 10px;
 
 }
+
+.ul-footer {
+    list-style-type: none;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    font-size: 8px;
+}
+
+
 
 /* .labels {
     position: absolute;
@@ -140,4 +162,8 @@ ul {
 
 .prezzi-barrati {
     text-decoration-line: line-through;
+}
+
+.justify-between {
+    justify-content: space-between;
 }
