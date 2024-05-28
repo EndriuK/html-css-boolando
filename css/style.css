@@ -63,12 +63,28 @@ main {
     right: 0;
     text-align: center;
     font-size: 30px;
+    cursor: pointer;
 } 
 
-.bg-green {
-
+.heart:hover {
+    color: red;
 }
 
+.d-block {
+    display: block;
+}
+
+.d-none {
+    display: none;
+}
+
+.content:hover .d-block {
+    display: none;
+}
+
+.content:hover .d-none {
+    display: block;
+}
 
 .bg-red {
     background-color: red;
