@@ -9,6 +9,7 @@
 header {
     background-color: orangered;
     padding: 20px 0;
+    
 }
 
 body {
@@ -34,7 +35,6 @@ main {
 .col-20 {
     width: 20%;
     height: 40px;
-    display: flex;
     
 }
 
@@ -45,10 +45,14 @@ main {
 .col-60 {
     width: 60%;
     height: 40px;
-    display: flex;
 }
-
 /* PAGE STYLES */
+
+i {
+    color: #fff;
+    text-align: right;
+    padding: 10px 0;
+}
 
 .content {
     margin: 10px;
