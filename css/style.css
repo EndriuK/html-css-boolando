@@ -41,6 +41,14 @@ main {
     width: 100%;
 }
 
+/* .labels {
+    position: absolute;
+    bottom: 25px;
+    left: 0;
+    display: flex;
+
+} */
+
 .label {
     padding: 10px;
     color: #fff;
@@ -88,4 +96,17 @@ main {
 
 .bg-red {
     background-color: red;
+}
+
+/* .bg-green {
+    background-color: green;
+    margin: 0 10px;
+} */
+
+.prezzi-scontati {
+    color: red;
+}
+
+.prezzi-barrati {
+    text-decoration-line: line-through;
 }
